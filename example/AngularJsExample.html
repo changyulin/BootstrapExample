@@ -1,0 +1,13 @@
+<!doctype html>
+<html ng-app>
+    <head>
+        <script src="http://code.angularjs.org/angular-1.0.1.min.js"></script>
+    </head>
+    <body>
+        <div>Your name: <input type="text" ng-model="yourname" placeholder="World"></div>
+        <div>Hello {{yourname || 'World'}}!</div>
+		<div>==========================</div>
+		<p>1 + 2 = {{ 1 + 2 }}</p>
+		<div>==========================</div>
+    </body>
+</html>
