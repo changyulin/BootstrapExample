@@ -25,9 +25,8 @@
 			.state('about', {
 				url:'/about',
 				views:{
-					'content':{
-						templateUrl: 'templates/about.html'
-					}
+					'content':{templateUrl: 'templates/about.html'},
+				    '@about':{templateUrl: 'templates/aboutChild.html'}
 				}
 				
 			})
